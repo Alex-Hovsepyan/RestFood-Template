@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RestFood - Template</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/icon.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header_container">
+            <img src="assets/images/logo.png" />
+            <nav>
+                <span><i onclick="menuFunc()" class="fa-solid fa-xmark"></i></span>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#chef">chefs</a></li>
+                    <li><a href="#menu">menu</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+            <span onclick="menuFunc()"><i class="fa-solid fa-bars"></i></span>
+        </div>
+    </header>
+    <section style="background-image: url(assets/images/bg-header.png);" id="home">
+        <div class="home_container">
+            <div class="home_content">
+                <h1>best quality food</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias provident laborum, recusandae delectus corrupti reprehenderit error distinctio eligendi qui consequuntur officia.</p>
+                <a href="#reservation">book a table</a>
+            </div>
+        </div>
+    </section>
+    <section class="dishes">
+        <div class="title">
+            <h2>our special dishes</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, labore quasi temporibus consectetur suscipit sunt tenetur, veniam neque distinctio fugit in sint natus deserunt hic eaque dolores.</p>
+        </div>
+        <div class="dishes_container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="assets/images/special-dishes-1.jpg" />
+                        <h3>Burger</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. </p>
+                        <span>$12.99</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images/special-dishes-2.png" />
+                        <h3>beef Burger meal</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. </p>
+                        <span>$12.99</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images/special-dishes-3.jpg" />
+                        <h3>double cheese pizza</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. </p>
+                        <span>$12.99</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images/special-dishes-4.png" />
+                        <h3>ceaser salad</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. </p>
+                        <span>$12.99</span>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/images/special-dishes-5.jpg" />
+                        <h3>pasta</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. </p>
+                        <span>$12.99</span>
+                    </div>
+                </div>
+                <div class="arrows">
+                    <div class="button-prev"><i class="fa-solid fa-arrow-left"></i></div>
+                    <div class="button-next"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="background-image: url(assets/images/bg-pattern.jpg);" id="about">
+        <div class="about_container">
+            <div class="left">
+                <img src="assets/images/about-big.jpg" />
+                <a href="https://youtu.be/KfTtpoIovuk"><i class="fa-solid fa-play"></i></a>
+            </div>
+            <div class="right">
+                <div class="title">
+                    <h2>GOOD FOOD FOR YOUR ALL DAY GOOD MOOD</h2>
+                </div>
+                <p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Itaque dolore nisi ipsa neque? Dolorem incidunt fugiat temporibus animi nobis, vero expedita voluptate dignissimos officiis quis pariatur earum voluptas quia sed.</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Itaque dolore nisi ipsa neque? Dolorem incidunt fugiat temporibus animi nobis, vero expedita voluptate dignissimos officiis quis pariatur earum voluptas quia sed.</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Itaque dolore nisi ipsa neque? Dolorem incidunt fugiat temporibus animi nobis, vero expedita voluptate dignissimos officiis quis pariatur earum voluptas quia sed.</p>
+                <ul>
+                    <li>
+                        <img src="assets/images/advantage-1.png" />
+                        <h5>experienced chefs</h5>
+                    </li>
+                    <li>
+                        <img src="assets/images/advantage-2.png" />
+                        <h5>ORIGINAL RECIPES</h5>
+                    </li>
+                    <li>
+                        <img src="assets/images/advantage-3.png" />
+                        <h5>FRESH INGREDIENTS</h5>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section style="background-image: url(assets/images/bg-offer.png);" class="offer">
+        <div class="offer_container">
+            <h2>double cheese pizza 30% off friday only</h2>
+            <a href="#reservation">Book a table</a>
+        </div>
+    </section>
+    <section id="chef">
+        <div class="title">
+            <h2>OUR BEST CHEF</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, labore quasi temporibus consectetur suscipit sunt tenetur, veniam neque distinctio fugit in sint natus deserunt hic eaque dolores.</p>
+        </div>
+        <div class="chef_container">
+            <div class="chef_content">
+                <img src="assets/images/chef-1.jpg" />
+                <h4>Mr Alex</h4>
+                <p>General Chef</p>
+                <ul>
+                    <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="chef_content">
+                <img src="assets/images/chef-2.jpg" />
+                <h4>OLIVIA GROSH</h4>
+                <p>Senior chef</p>
+                <ul>
+                    <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="chef_content">
+                <img src="assets/images/chef-3.jpg" />
+                <h4>JEREMY WHITE</h4>
+                <p>Middle chef</p>
+                <ul>
+                    <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="chef_content">
+                <img src="assets/images/chef-4.jpg" />
+                <h4>HOWARD HOLMES</h4>
+                <p>Junior chef</p>
+                <ul>
+                    <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section style="background-image: url(assets/images/bg-pattern.jpg);" id="menu">
+        <div class="title">
+            <h2>OUR MENU</h2>
+        </div>
+        <div class="menu_container">
+            <ul>
+                <li data-menu="*" class="active" onclick="menuSort(event)">all</li>
+                <li data-menu="burgers" onclick="menuSort(event)">burgers</li>
+                <li data-menu="pizzas" onclick="menuSort(event)">pizzas</li>
+                <li data-menu="seafood" onclick="menuSort(event)">seafood</li>
+                <li data-menu="pasts" onclick="menuSort(event)">pasts</li>
+                <li data-menu="salads" onclick="menuSort(event)">salads</li>
+                <li data-menu="desserts" onclick="menuSort(event)">desserts</li>
+                <li data-menu="drinks" onclick="menuSort(event)">drinks</li>
+            </ul>
+            <div class="menu_content">
+                <div data-menu="burgers" class="product">
+                    <img src="assets/images/product-1.jpg" />
+                    <h4>CHICKEN BURGER</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit.</p>
+                    <span>$15.30</span>
+                </div>
+                <div data-menu="pizzas" class="product">
+                    <img src="assets/images/product-2.jpg" />
+                    <h4>double cheese pizza</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit.</p>
+                    <span>$18.50</span>
+                </div>
+                <div data-menu="drinks" class="product">
+                    <img src="assets/images/product-3.jpg" />
+                    <h4>LEMONADE</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit.</p>
+                    <span>$9.40</span>
+                </div>
+                <div data-menu="pizzas" class="product">
+                    <img src="assets/images/special-dishes-1.jpg" />
+                    <h4>GRAND ITALIANO PIZZA</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit.</p>
+                    <span>$12.37</span>
+                </div>
+                <div data-menu="seafood" class="product">
+                    <img src="assets/images/product-4.jpg" />
+                    <h4>SEAFOOD</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit.</p>
+                    <span>$20.70</span>
+                </div>
+                <div data-menu="pasts" class="product">
+                    <img src="assets/images/special-dishes-3.jpg" />
+                    <h4>PASTA</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit.</p>
+                    <span>$10.20</span>
+                </div>
+                <div data-menu="burgers" class="product">
+                    <img src="assets/images/special-dishes-4.png" />
+                    <h4>DOUBLE MAC BURGER</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit.</p>
+                    <span>$22.40</span>
+                </div>
+                <div data-menu="burgers" class="product">
+                    <img src="assets/images/special-dishes-5.jpg" />
+                    <h4>BEEF CHEESE BURGER</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit.</p>
+                    <span>$21.20</span>
+                </div>
+                <div data-menu="salads" class="product">
+                    <img src="assets/images/product-5.jpg" />
+                    <h4>Vegetable Salad</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit.</p>
+                    <span>$10.41</span>
+                </div>
+                <div data-menu="salads" class="product">
+                    <img src="assets/images/product-6.jpg" />
+                    <h4>Vegetable Salad With Pair of Chopsticks</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit.</p>
+                    <span>$10.41</span>
+                </div>
+                <div data-menu="desserts" class="product">
+                    <img src="assets/images/dessert.jpg" />
+                    <h4>Vegetable Salad With Pair of Chopsticks</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit.</p>
+                    <span>$10.41</span>
+                </div>
+                <div data-menu="desserts" class="product">
+                    <img src="assets/images/dessert2.jpg" />
+                    <h4>Ice cream ball and slice of chocolate</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit.</p>
+                    <span>$10.41</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="gallery">
+        <div class="title">
+            <h2>Gallery</h2>
+        </div>
+        <div class="gallery_container">
+            <a href="assets/images/gallery-1.jpg" target="_blank"><img src="assets/images/gallery-1.jpg" /></a>
+            <a href="assets/images/gallery-2.jpg" target="_blank"><img src="assets/images/gallery-2.jpg" /></a>
+            <a href="assets/images/gallery-3.jpg" target="_blank"><img src="assets/images/gallery-3.jpg" /></a>
+            <a href="assets/images/gallery-4.jpg" target="_blank"><img src="assets/images/gallery-4.jpg" /></a>
+            <a href="assets/images/gallery-5.jpg" target="_blank"><img src="assets/images/gallery-5.jpg" /></a>
+            <a href="assets/images/gallery-6.jpg" target="_blank"><img src="assets/images/gallery-6.jpg" /></a>
+        </div>
+    </section>
+    <section style="background-image: url(assets/images/bg-pattern.jpg);" id="reservation">
+        <div class="title">
+            <h2>Book a table</h2>
+        </div>
+        <div class="reservation_container">
+            <form method="post">
+                <div>
+                    <label for="res_name">Name</label>
+                    <input name="res_name" placeholder="Name" required>
+                </div>
+                <div>
+                    <label for="res_lastname">Last Name</label>
+                    <input name="res_lastname" placeholder="Last Name" required>
+                </div>
+                <div>
+                    <label for="res_phone">Phone</label>
+                    <input name="res_phone" placeholder="Phone" required>
+                </div>
+                <div>
+                    <label for="res_email">Email</label>
+                    <input type="email" name="res_email" placeholder="Email" required>
+                </div>
+                <div>
+                    <label for="res_date">Date</label>
+                    <input type="date" name="res_date" placeholder="Date" required>
+                </div>
+                <div>
+                    <label for="res_time">Time</label>
+                    <input type="time" name="res_time" placeholder="Time" required>
+                </div>
+                <button>Book a table</button>
+            </form>
+            <div class="reservation_content">
+                <h2>opening hours</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, inventore hic nulla, provident laudantium voluptate ipsa eligendi commodi mollitia vero animi, repudiandae quidem minima est sint sapiente quas iure deleniti.</p>
+                <ul>
+                    <li>
+                        <span>Monday - Friday</span>
+                        <span>8AM - 6PM</span>
+                    </li>
+                    <li>
+                        <span>Saturday</span>
+                        <span>9AM - 5PM</span>
+                    </li>
+                    <li>
+                        <span>Sunday</span>
+                        <span>9AM - 4PM</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="title">
+            <h2>Contact us</h2>
+        </div>
+        <ul>
+            <li>
+                <h4><i class="fa-solid fa-location-dot"></i> location</h4>
+                <span>2900 Lapeer Rd, Port Hurons</span>
+            </li>
+            <li>
+                <h4><i class="fa-solid fa-phone fa-rotate-270"></i> PHONE</h4>
+                <span>044 64 80 88</span>
+            </li>
+            <li>
+                <h4><i class="fa-solid fa-envelope"></i> email</h4>
+                <span>alextyoou@gmail.com</span>
+            </li>
+            <li>
+                <ul>
+                    <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </li>
+        </ul>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2918.985541968988!2d-82.4579672!3d42.9785782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88259c3943d5fa95%3A0x92e2619d42a7a5a4!2zMjkwMCBMYXBlZXIgUmQsIFBvcnQgSHVyb24sIE1JIDQ4MDYwLCDVhNWr1aHWgdW11aHVrCDVhtWh1bDVodW21aPVttWl1oA!5e0!3m2!1shy!2sam!4v1701702692494!5m2!1shy!2sam" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <footer>Copyright © All rights reserved. Terms of use and Privacy Policy.</footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
